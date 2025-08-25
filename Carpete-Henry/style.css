@@ -15,6 +15,15 @@ ul, li, h1, h2, p{
     padding: 0;
     list-style: none;
 }
+
+.titulo{
+    font-size: 3rem;
+}
+
+
+.subtitulo{
+    font-size: 1.5rem;
+}
 /*Seccion menu*/
 
 .menu{
@@ -75,4 +84,41 @@ ul, li, h1, h2, p{
     font-size: 3rem;
 }
 
-/*
+/*seccion presentaciojn*/
+
+.presentacion-contenedor{
+    height: 100vh;
+    background-color: #fff8;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion-titulo{
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.presentacion-contenedor--contenido{
+    display: flex;
+    margin-top: 5vh;
+    font-size: 1.2rem;
+}
+
+/*seccion historia*/
+
+.historia{
+    color:#fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*seccion motivacion*/
+
+.motivacion{
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
